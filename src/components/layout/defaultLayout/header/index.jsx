@@ -46,7 +46,7 @@ const Header = () => {
             <div onClick={handleSetNav} className={`fixed bottom-[1vw] left-[2vw] w-[60px] h-[50px] flex mx-2 items-center justify-center text-[15px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:bg-slate-600 transition-all overflow-hidden`}>
                 <FaBars className="w-full h-3/5"/>
             </div>
-        <nav className={`fixed bottom-[1vw] flex justify-center items-center ${showNav ? 'w-screen ssm:w-[80vw] sm:w-[60vw] xl:w-[40vw] h-[80px]':'w-0 h-0'} overflow-hidden mx-auto rounded-lg transition-all`}>
+        <nav className={`fixed bottom-[1vw] z-50 flex justify-center items-center ${showNav ? 'w-screen ssm:w-[80vw] sm:w-[60vw] xl:w-[40vw] h-[80px]':'w-0 h-0'} overflow-hidden mx-auto rounded-lg transition-all`}>
             <div className="navOverlay absolute w-screen ssm:w-[80vw] sm:w-[60vw] lg:w-full h-full bg-slate-900 rounded-lg z-10 opacity-100 ssm:opacity-50"></div>
             <FaRegWindowClose className=" block ssm:hidden w-[10%] h-full text-white z-30" onClick={handleSetNav} />
             <div onClick={() => {navigate('/')}} className="w-1/4 min-w-[100px] h-3/5 flex mx-2 items-center justify-center text-[20px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:text-blue-500 transition-all z-30">

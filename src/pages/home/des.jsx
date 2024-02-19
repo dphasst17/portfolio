@@ -35,12 +35,12 @@ const Des = () => {
         <div className="items w-full xl:w-3/5 h-auto min-h-[150px] flex justify-center items-center">
             <div className="FrontEnd w-3/5 text-center text-zinc-300 text-[6vw] sm:text-[5vw] lg:text-[5vw] font-bold font-['Montserrat'] animateText">{text.join('')}</div>
             <img className="ReactIcon w-[15%] lg:w-[10%] h-40 object-contain" src="/assets/icon/reactIcon.png" />
-            <img className="MysqlIcon w-[15%] lg:w-[10%] h-40 object-contain mx-4 rounded-lg" src="/assets/icon/tailwindIcon.png" />
+            <img className="MysqlIcon w-[15%] lg:w-[10%] h-40 object-contain mx-4 rounded-lg" src="/assets/icon/Tailwind-logo.png" />
 
         </div>
         <div className="items w-full lg:w-3/5 h-auto min-h-[150px] flex flex-row-reverse justify-center items-center">
             <div className="Developer w-3/5 text-center text-neutral-400 text-[6vw] sm:text-[5vw] lg:text-[5vw] font-bold font-['Montserrat'] mx-2 animateText">{text2.join('')}</div>
-            <img className="TailwindIcon w-[15%] lg:w-[10%] h-40 object-contain mx-2" src="/assets/icon/mysqlIcon.png" />
+            <img className="TailwindIcon w-[15%] lg:w-[10%] h-40 object-contain mx-2" src="/assets/icon/MySql-logo.png" />
         </div>
     </div>
 }

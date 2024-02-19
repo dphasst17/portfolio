@@ -1,0 +1,168 @@
+@keyframes text {
+    0% {
+        width: 0;
+    }
+    /* 10%{
+        opacity: 1;
+    } */
+    100% {
+        width: 100%;
+    }
+}
+@keyframes fadeIn {
+    0% { opacity: 0;height:0 }
+    100% { opacity: 1; }
+  }
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #eeeeee; 
+  }
+}
+@keyframes scaleAnima {
+    0%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1.3);
+    }
+    100%{transform: scale(1.4);}
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes translateAnima-x {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+  }
+  @keyframes translateAnima-y {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+  }
+.animaTransX{
+    animation: translateAnima-x .2s linear forwards;
+}
+.animaTransY{
+    animation: translateAnima-y .2s linear forwards;
+}
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #484848;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+.project:hover{
+    .info{
+        transform: scale(1.4);
+        animation: scaleAnima .3s inherit;
+        transition: all .2s inherit;
+        .name{
+            transform: scale(1.2);
+        }
+    }
+}
+.textEffect {
+    opacity: 0;
+    transition: all 2s;
+    animation: text 2s alternate, fadeIn .3s alternate forwards;
+}
+
+.textNoWrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.animaDelay-0s {
+    animation-delay: 0s;
+}
+.animaDelay-1s {
+    animation-delay: 1s;
+}
+.animaDelay-2s {
+    animation-delay: 2s;
+}
+.animaDelay-3s {
+    animation-delay: 3s;
+}
+.animaDelay-4s {
+    animation-delay: 4s;
+}
+.animaDelay-5s {
+    animation-delay: 5s;
+}
+.animaDelay-6s {
+    animation-delay: 6s;
+}
+.animaDelay-7s {
+    animation-delay: 7s;
+}
+.animaDelay-8s {
+    animation-delay: 8s;
+}
+.animaDelay-9s {
+    animation-delay: 9s;
+}
+.animaDelay-10s {
+    animation-delay: 10s;
+}
+.animaDelay-11s {
+    animation-delay: 11s;
+}
+.animaDelay-0-5s {
+    animation-delay: 0.5s;
+}
+.animaDelay-1-5s {
+    animation-delay: 1.5s;
+}
+.animaDelay-2-5s {
+    animation-delay: 2.5s;
+}
+.animaDelay-3-5s {
+    animation-delay: 3.5s;
+}
+.animaDelay-4-5s {
+    animation-delay: 4.5s;
+}
+.animaDelay-5-5s {
+    animation-delay: 5.5s;
+}
+.animaDelay-6-5s {
+    animation-delay: 6.5s;
+}
+.animaDelay-7-5s {
+    animation-delay: 7.5s;
+}
+.animaDelay-8-5s {
+    animation-delay: 8.5s;
+}
+.animaDelay-9-5s {
+    animation-delay: 9.5s;
+}
+.animaDelay-10-5s {
+    animation-delay: 10.5s;
+}
+.animaDelay-11-5s {
+    animation-delay: 11.5s;
+}
