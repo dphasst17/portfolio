@@ -40,10 +40,10 @@ const Header = () => {
   }
     return <header className="w-full h-[12vh] flex flex-wrap justify-center items-center my-4">
         <Widget />
-            <div onClick={scrollToTop} className={`fixed bottom-[20vw] sm:bottom-[10vw] md:bottom-[5vw] left-[2vw] ${isVisible ? 'w-[60px] h-[50px]' :'w-0 h-0'} flex mx-2 items-center justify-center text-[15px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:bg-slate-600 transition-all overflow-hidden`}>
+            <div onClick={scrollToTop} className={`fixed bottom-[20vw] sm:bottom-[10vw] md:bottom-[5vw] left-[2vw] ${isVisible ? 'w-[60px] h-[50px]' :'w-0 h-0'} flex mx-2 items-center justify-center text-[15px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:bg-slate-600 transition-all overflow-hidden z-50`}>
                 <ImArrowUp className="w-full h-3/5"/>
             </div>
-            <div onClick={handleSetNav} className={`fixed bottom-[1vw] left-[2vw] w-[60px] h-[50px] flex mx-2 items-center justify-center text-[15px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:bg-slate-600 transition-all overflow-hidden`}>
+            <div onClick={handleSetNav} className={`fixed bottom-[1vw] left-[2vw] w-[60px] h-[50px] flex mx-2 items-center justify-center text-[15px] text-slate-100 font-semibold cursor-pointer bg-slate-700 rounded-lg hover:bg-slate-600 transition-all overflow-hidden z-50`}>
                 <FaBars className="w-full h-3/5"/>
             </div>
         <nav className={`fixed bottom-[1vw] z-50 flex justify-center items-center ${showNav ? 'w-screen ssm:w-[80vw] sm:w-[60vw] xl:w-[40vw] h-[80px]':'w-0 h-0'} overflow-hidden mx-auto rounded-lg transition-all`}>

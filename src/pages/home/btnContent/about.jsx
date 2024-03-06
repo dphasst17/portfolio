@@ -73,7 +73,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto overflow-hidden xl:max-h-[150px] textEffect animaDelay-3s">
             <span className="text-amber-400 text-3xl font-bold font-['Mplus 1p Bold'] w-full textEffect transition-all">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Im Dinh Phat, 20 years old, currently studying at FPT Polytechnic College. Despite being in the learning phase, I am passionate about front-end development and consistently apply my knowledge through various projects. My curiosity and readiness to face new challenges drive me forward. Although I am relatively new to this field, I am committed to learning and striving to meet high standards in performance and user experience. I aspire to learn and apply my knowledge to contribute actively and innovatively to every project.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Im Dinh Phat, currently studying at FPT Polytechnic Da Nang. Despite being in the learning phase, I am passionate about front-end development and consistently apply my knowledge through various projects. My curiosity and readiness to face new challenges drive me forward. Although I am relatively new to this field, I am committed to learning and striving to meet high standards in performance and user experience. I aspire to learn and apply my knowledge to contribute actively and innovatively to every project.
                 <br />
             </span>
         </div>

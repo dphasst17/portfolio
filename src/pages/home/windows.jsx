@@ -68,11 +68,10 @@ const Windows = () => {
         }
         return num;
     }
-    return <div className="window-11 relative xl:w-[85vw] h-[90vh] rounded-lg bg-slate-300 border border-solid border-slate-500 overflow-hidden">
+    return <div className="window-11 relative w-[90vw] 3xl:w-[85vw] h-[95vh] 3xl:h-[90vh] rounded-lg bg-slate-300 border border-solid border-slate-500 overflow-hidden">
         {isLoading && <div className="absolute z-40 w-full h-full flex flex-col items-center justify-around bg-zinc-900">
             <img src="/assets/icon/Windows-logo.png" className="w-[200px] h-[200px]" />
             <div className="inline-block h-14 w-14 animate-spin text-white rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]" role="status">
-                {/* <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span> */}
             </div>
         </div>}
         {!isLoading && <>

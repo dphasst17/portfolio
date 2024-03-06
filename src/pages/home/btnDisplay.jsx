@@ -14,7 +14,7 @@ const BtnDisplay = () => {
             },
             {
                 text:'skill.component.js',
-                image:"/assets/icon/jsIcon3.png",
+                image:"/assets/icon/Js-logo.png",
                 component:Skill
             },
             {

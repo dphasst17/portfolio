@@ -17,7 +17,7 @@ const Project = () => {
                         <span className="w-full flex justify-center items-center"> Technology</span> {p.technology.map(e => <img className="w-[30px] h-[30px] object-contain mx-2" src={`/assets/icon/${e}-logo.png`} alt="" key={e} />)}
                     </div>
                     <div className="btnProject w-4/5 flex flex-wrap justify-between text-white font-semibold">
-                        <button onClick={() => { setListUrl(p.url.flatMap(e => e.url), isShow === false ? setIsShow(true) : '') }} className=" flex items-center justify-center w-[48%] h-[30px] bg-red-500 my-2 rounded-lg">Live Preview < FaAngleDoubleDown /></button>
+                        <button onClick={() => { setListUrl(p.url.flatMap(e => e.url), isShow === false ? setIsShow(true) : '') }} className=" flex items-center justify-center w-[48%] h-[30px] bg-red-500 my-2 rounded-lg">Preview < FaAngleDoubleDown /></button>
                         <button onClick={() => { setListUrl(p.github.flatMap(e => e.url), isShow === false ? setIsShow(true) : '') }} className="w-[48%] h-[30px] bg-slate-500 my-2 rounded-lg">Github</button>
                     </div>
                 </div>

@@ -61,7 +61,6 @@ const BraveBrowser = ({props}) => {
             return {
                 ...t,
                 id: t.id > e ? t.id - 1 : t.id,
-                url:t.id > e ?  `new tab ${t.id - 1}`:t.url
             }
         }))
     }
@@ -120,15 +119,16 @@ const BraveBrowser = ({props}) => {
             </div>
             <input onKeyDown={(e) => {e.key === 'Enter' && changeUrl(e.target.value)}} onChange={(e) => {handleChange(e.target.value)}} className="w-[75%] h-[55%] bg-zinc-900 text-white rounded-lg px-2 py-1 outline-none" type="text" value={url} placeholder="Search on google or enter a url"/>
             <div className="urlIcon w-[15%] h-2/4 flex ">
-                <div className="w-2/4 h-full flex justify-end">
-                    <VscJson className="w-[33%] text-[25px] text-yellow-500 cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
-                    <FaReact className="w-[33%] text-[25px] text-blue-500 cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
-                    <IoExtensionPuzzleOutline className="w-[33%] text-[25px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
+                <div className="w-2/4 h-full flex items-center justify-end">
+                    <VscJson className="w-[33%] text-[23px] text-yellow-500 cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
+                    <FaReact className="w-[33%] text-[23px] text-blue-500 cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
+                    <IoExtensionPuzzleOutline className="w-[33%] text-[23px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1" />
                 </div>
                 <div className="w-2/4 h-full flex justify-around items-center">
-                    <BsLayoutSidebarInsetReverse className="w-[33%] text-[25px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>
-                    <HiUserCircle className="w-[33%] text-[25px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>  
-                    <HiOutlineDotsVertical className="w-[33%] text-[25px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>
+                    
+                    <BsLayoutSidebarInsetReverse className="w-[33%] text-[23px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>
+                    <HiUserCircle className="w-[33%] text-[23px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>  
+                    <HiOutlineDotsVertical className="w-[33%] text-[23px] text-white cursor-pointer hover:bg-zinc-800 rounded-lg p-1"/>
                 </div>
             </div>
             <div className="w-full h-2/5 text-white mt-1 flex">
